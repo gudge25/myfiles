@@ -1,5 +1,5 @@
 <Response>
-<Dial callerId="12485745116">
+<Dial>
     <User>sip:AsteriskPbx170927092615@phone.plivo.com</User>
 </Dial>
 </Response>
