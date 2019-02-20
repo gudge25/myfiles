@@ -24,7 +24,7 @@ read ramdiskamount
 #Format ramDisk
 /sbin/mke2fs -q -m 0 /dev/ram0
 #mkdir for Ram
-/usr/bin/mkdir /dev/ram0
+/usr/bin/mkdir /mnt/rd
 #mount to directory
 /bin/mount /dev/ram0 /mnt/rd
 #Enable rc.local and add data 
