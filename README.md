@@ -1,1 +1,1 @@
-# Custom Scrits
+# Custom Scripts
