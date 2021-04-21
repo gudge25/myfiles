@@ -1,0 +1,10 @@
+- hosts: databases
+  remote_user: root
+  vars:
+    databasename: foo
+  
+  tasks:
+    - name: Create a new database with name {{ databasename}}
+      mysql_db:
+        name: {{databasename}}
+        state: present
