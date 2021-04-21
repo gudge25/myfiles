@@ -4,7 +4,7 @@ tasks:
   - name: Execute command
     command: date
 
-  - name: Install mc
-    pacman:
-      name: mc
-      state: present  
+  - name: Run the equivalent of "pacman -Syu" as a separate step
+    community.general.pacman:
+     update_cache: yes
+     upgrade: yes  
