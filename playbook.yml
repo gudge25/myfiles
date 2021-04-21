@@ -1,5 +1,5 @@
 name: TEST
-hosts: localhost
+hosts: all
 tasks:
   - name: Execute command
     command: date
