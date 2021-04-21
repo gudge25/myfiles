@@ -1,10 +1,10 @@
 name: TEST
 hosts: localhost
 tasks:
-  -name: Execute command
+  - name: Execute command
     command: date
 
-  -name: Install mc
+  - name: Install mc
     pacman:
       name: mc
       state: present  

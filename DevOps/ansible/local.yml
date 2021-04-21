@@ -1,12 +1,12 @@
 ---
 - hosts: localhost
-connection: local
-become: true
+  connection: local
+  become: true
 
-tasks:
-- name: install packages
-  package:
-    name: 
-     - htop
-     - nano
-     - wget
+  tasks:
+  - name: install packages
+    package:
+      name: 
+      - htop
+      - nano
+      - wget
