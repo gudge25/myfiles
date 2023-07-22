@@ -1,0 +1,14 @@
+=Create=
+git branch #list branches + curent branch
+git branch new_feature #without checkout
+
+cat .git/HEAD
+ls  -la .git/refs/heads   #
+
+=Swith =
+git checkout BRANCH
+cat .git/HEAD
+
+
+==
+==
