@@ -12,8 +12,3 @@
       rpm_key: state=present key=http://packages.irontec.com/public.key
     - name: install sngrep
       yum: name=sngrep state=latest #update_cache=true
-
-
-
-
-
