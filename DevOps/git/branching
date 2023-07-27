@@ -1,0 +1,35 @@
+=Create=
+git branch #list branches + curent branch
+git branch new_feature #without checkout
+
+cat .git/HEAD
+ls  -la .git/refs/heads   #
+
+=Swith =
+git checkout BRANCH
+cat .git/HEAD
+
+git commit -am "Git second lesson" #Commit all with message
+
+=Create with switch =
+git checkout -b shorten_title 
+git log --oneline
+
+=swith with uncomited changes=
+only  if  git can  resolve conflict  or changes are uncommitment
+
+=Compare Branches=
+git diff 7bf2624..HEAD
+git diff --color-words 7bf2624..HEAD #One line changes
+git diff --color-words 7bf2624..HEAD^
+
+git branch --merged   #Brances merged into current
+git branch --no-merged  #not merged
+
+=Rename=
+git branch -m new_name   #rename curent branch
+git branch -m shorten_title test_branch   #OLD to new  BRANCHNAME
+
+
+=delete=
+git branch branch_to_delete
