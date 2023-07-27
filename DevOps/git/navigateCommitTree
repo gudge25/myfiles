@@ -44,3 +44,6 @@ git log --oneline
 
 git log --graph #Grapth
 git log --graph --all --oneline --decorate 
+
+git log --stat etc/asterisk/extensions_custom.conf 
+git log -p etc/asterisk/extensions_custom.conf  

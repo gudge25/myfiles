@@ -9,6 +9,14 @@ ls  -la .git/refs/heads   #
 git checkout BRANCH
 cat .git/HEAD
 
+git commit -am "Git second lesson" #Commit all with message
 
-==
-==
+=Create with switch =
+git checkout -b shorten_title 
+git log --oneline
+
+=swith with uncomited changes=
+only  if  git can  resolve conflict  or changes are uncommitment
+
+=Compare Branches=
+
