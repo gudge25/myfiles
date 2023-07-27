@@ -6,6 +6,7 @@ Does not  change working  directory
 git reset --soft <tree-ish>
 
 =Mixet= DEFAUKT
+Moves HEAD pointer
 Changes staging 
 Does not  change working  directory
 
@@ -13,6 +14,7 @@ git reset --mixed <tree-ish>
 
 
 =HARD=
+Moves HEAD pointer
 Changes staging 
 Change working  directory
 
