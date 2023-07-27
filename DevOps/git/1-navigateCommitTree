@@ -1,0 +1,49 @@
+=Tree-ish=
+git log  # commits log
+
+git show  1a9bee627e # MIN 4 characters
+
+git show HEAD
+(sha in .git/HEAD file)
+
+=Ancestry=
+git show HEAD^ # parent of HEAD
+git show HEAD~[HEAD~1]
+git show HEAD^^
+git show HEAD~2   # 2 gen before
+
+=TREE=
+git ls-tree  <tree-ish>
+git ls-tree HEAD  # all
+git ls-tree HEAD  DevOps/   #list directory
+
+=Filter commit=
+git log -3  #last 3 commit
+git log  --since=2021-04-01   #since  that date
+
+git log  --until=2021-04-01
+git log  --until="3 days ago"
+
+git log  --after=2.weeks --before=3.days
+
+git log --author="Antonio"
+
+git log --grep="Initial"
+git log 86517cbd60..HEAD  #between commit id and HEAD
+
+git log playbook.yml
+git log DevOps  #DIRECTORY
+
+=COMMIT Log Format=
+git log -p   #with changes
+git log --stat # Total stats
+
+git log --format=
+git log --format=oneline
+git log --oneline
+
+git log --graph #Grapth
+git log --graph --all --oneline --decorate 
+
+git log --stat etc/asterisk/extensions_custom.conf 
+git log -p etc/asterisk/extensions_custom.conf  

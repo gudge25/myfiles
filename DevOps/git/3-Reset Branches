@@ -1,0 +1,19 @@
+=Soft=
+Moves HEAD pointer
+Does not  change staging
+Does not  change working  directory
+
+git reset --soft <tree-ish>
+
+=Mixet= DEFAUKT
+Changes staging 
+Does not  change working  directory
+
+git reset --mixed <tree-ish>
+
+
+=HARD=
+Changes staging 
+Change working  directory
+
+git reset --hard <tree-ish>
