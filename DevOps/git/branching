@@ -26,4 +26,9 @@ git diff --color-words 7bf2624..HEAD^
 git branch --merged   #Brances merged into current
 git branch --no-merged  #not merged
 
-=Nename=
+=Rename=
+git branch -m new_name   #rename curent branch
+git branch -m shorten_title test_branch   #OLD to new  BRANCHNAME
+
+
+=delete=
