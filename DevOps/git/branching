@@ -19,4 +19,11 @@ git log --oneline
 only  if  git can  resolve conflict  or changes are uncommitment
 
 =Compare Branches=
+git diff 7bf2624..HEAD
+git diff --color-words 7bf2624..HEAD #One line changes
+git diff --color-words 7bf2624..HEAD^
 
+git branch --merged   #Brances merged into current
+git branch --no-merged  #not merged
+
+=Nename=
